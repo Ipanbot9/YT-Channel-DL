@@ -12,9 +12,9 @@ if __name__ == "__main__" :
     )
     app = pyrogram.Client(
         "bot",
-        bot_token=os.environ.get("TOKEN"),
-        api_id=int(os.environ.get("APP_ID")),
-        api_hash=os.environ.get("API_HASH"),
+        bot_token=os.environ.get("5811923357:AAFf-XotoOzFK_UOrpLF7o07N3ZyyBSuKiM"),
+        api_id=int(os.environ.get("11912804")),
+        api_hash=os.environ.get("3ede7ccee042fee943f8731f525508fc"),
         plugins=plugins
     )
     app.run()
